@@ -54,6 +54,7 @@ button:hover {
 }
 
 .wrapper {
+    margin: 20px;
     width: 800px;
     padding: 20px 40px;
     background-color: rgba(0, 0, 0, .8);
@@ -115,4 +116,26 @@ button:hover {
     margin-top: 10px;
     font-size: 14px;
     color: tomato;
+}
+
+@media (max-width: 768px){
+    .wrapper{
+        height: 100vh;
+        border-radius: 0px;
+    }
+    .wrapper button{
+        margin-top: 20px;
+    }
+    h1{
+        margin-bottom: 100px;
+    }
+    .main-info{
+        margin-bottom: 100px;
+    }
+    .bottom{
+        margin-top: 200px;
+    }
+    .headings{
+        font-size: 16px;
+    }
 }
